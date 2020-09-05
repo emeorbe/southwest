@@ -1,0 +1,36 @@
+.main{
+  width: 100%;
+}
+
+.hero{
+  width: 100%;
+  background: url(../images/mapa_anchocompletotransparecia.png);
+  background-size: cover;
+  height: 76vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: $general-color 3px solid;
+  border-bottom: $general-color 3px solid; 
+
+}
+
+.hero_title{
+  
+  color:  $general-color;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 20pt;
+
+  @media all and (max-width:770px){
+    font-size:  37px;
+    letter-spacing: 6pt;
+    color: $general-color;
+  }
+
+}

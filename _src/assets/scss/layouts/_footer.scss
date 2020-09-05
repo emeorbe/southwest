@@ -1,0 +1,50 @@
+.footer{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+
+  @media all and (max-width:390px){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+}
+.line{
+  border-top: 2px solid #cfa028;
+}
+.footer_logo{
+display: flex;
+flex-direction: row;
+  @media all and (max-width:390px){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.logo_uca{
+  width: 100%;
+}
+.logo_ue{
+  width: 100%;
+}
+.footer_text{
+
+  color:#03195a;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  padding-right: 20px;
+  @media all and (max-width:700px){
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
+    padding-right: 0;
+  }
+
+}

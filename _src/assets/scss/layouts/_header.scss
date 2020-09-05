@@ -1,0 +1,30 @@
+@import 'core/variables';
+
+.header-menu  {
+  font-family: $font-family;
+  font-size: 20px;
+  color: $general-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  @media all and (max-width:390px){
+    font-size: 14px;
+  }
+}
+
+.menu_link{
+  display: inline-block;
+  color: $general-color;
+  font-family: $font-family;
+  
+}
+ 
+.header{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+
