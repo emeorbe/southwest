@@ -2,7 +2,7 @@
 
 .header-menu  {
   font-family: $font-family;
-  font-size: 20px;
+  font-size: 22px;
   color: $general-color;
   display: flex;
   flex-direction: row;
@@ -10,7 +10,7 @@
   align-items: center;
   align-content: center;
   width: 100%;
-  @media all and (max-width:390px){
+  @media all and (max-width:700px){
     font-size: 14px;
   }
 }

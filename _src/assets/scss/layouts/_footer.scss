@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 18px;
 
   @media all and (max-width:390px){
     display: flex;
@@ -15,12 +15,12 @@
   
 }
 .line{
-  border-top: 2px solid #cfa028;
+  border-top: 3px solid #cfa028;
 }
 .footer_logo{
 display: flex;
 flex-direction: row;
-  @media all and (max-width:390px){
+  @media all and (max-width:770px){
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,8 +43,7 @@ flex-direction: row;
   @media all and (max-width:700px){
     font-size: 12px;
     line-height: 14px;
-    margin: 0 auto;
-    padding-right: 0;
+    padding-left: 20px;
   }
 
 }
