@@ -1,0 +1,72 @@
+.project{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.project_title{
+  font-family: $font_family;
+  font-size: 30px;
+  padding-top: 25px;
+  width: 100%;
+  border-bottom: 2px solid $general-color;
+  color:$general-color;
+
+  @media all and (max-width:390px){
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.project_text{
+  width: 100%;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 19px;
+  color:$color-text;
+  padding-top: 20px;
+  line-height: 1.7;
+  text-align: justify;
+  @media all and (max-width:390px){
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+}
+.projectMedia{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  @media all and (max-width:390px){
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+}
+.project_mediaHouse{
+
+  width: 100%;
+
+}
+
+
+.project_media{
+ width: 100%;
+}
+.projectMedia_first{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+ @media all and (max-width:390px){
+  display: flex;
+  flex-direction: column;
+  
+ }
+
+}
