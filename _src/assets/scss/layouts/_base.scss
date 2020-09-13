@@ -21,18 +21,17 @@
 }
 
 .hero_title{
-  
+  width: 100%;
   color:  $general-color;
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 20pt;
+  letter-spacing: 18npmpt;
 
-  @media all and (max-width:770px){
-    font-size:  37px;
-    letter-spacing: 6pt;
+  @media all and (max-width:800px){
+    font-size:  34px;
+    letter-spacing: 5pt;
     color: $general-color;
-
   }
 
 }
