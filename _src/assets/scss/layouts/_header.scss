@@ -1,12 +1,17 @@
 @import 'core/variables';
 
-.header-menu  {
+.page__header{
+  width: 100%; 
+}
+
+.header-menu{
   font-family: $font-family;
-  font-size: 22px;
+  font-size: 19px;
   color: $general-color;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-self: center;
   align-items: center;
   align-content: center;
   width: 100%;
@@ -22,9 +27,9 @@
   
 }
  
-.header{
+ .header{
   padding-top:20px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 15px;
+ }
 
 

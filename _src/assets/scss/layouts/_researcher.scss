@@ -1,3 +1,5 @@
+@import 'core/variables';
+
 .researchInfoGeneral{
     width: 100%;
     max-width: 1200px;
@@ -12,7 +14,7 @@
   border-bottom: 2px solid $general-color;
   color:$general-color;
 
-  @media all and (max-width:390px){
+  @media all and (max-width:750px){
     font-size: 20px;
     padding-left: 12px;
     padding-right: 12px;
@@ -25,7 +27,7 @@
   flex-direction: row;
   align-items: flex-start;
 
-  @media all and (max-width:390px){
+  @media all and (max-width:750px){
     display: flex;
     flex-direction: column;
   }
@@ -45,7 +47,7 @@
   letter-spacing: 0.5px;
   text-align: justify;
   
-  @media all and (max-width:390px){
+  @media all and (max-width:750px){
     font-size: 17px;
     padding-left: 12px;
     padding-right: 12px;
@@ -59,11 +61,18 @@
 }
 .researcherMedia{
   width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .photo_victor{
-  width: 91%;
+  width: 90%;
   border-radius: 154px;
   padding: 17px;
+  @media all and (max-width:750px){
+    width: 80%;
+  
+  }
 
 }
 
@@ -86,9 +95,10 @@
     margin-bottom: 5px;
     margin-top: 30px;
     padding: 10px;
-    @media all and (max-width:390px){
-      margin-right: 10px;
-      margin-left: 10px;
+    @media all and (max-width:750px){
+      width: 350px;
+      margin: 20px auto;
+
     }
 
 }
