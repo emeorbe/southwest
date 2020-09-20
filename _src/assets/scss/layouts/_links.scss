@@ -8,7 +8,6 @@
 }
 .linksInfo{
   width: 100%;
-  height: 100%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 15px 15px 15px;
@@ -81,13 +80,14 @@
   flex-wrap: wrap;
   padding-left:12px;
   padding-right: 12px;
+  line-height: 31px;
   text-decoration: underline  $color-text;
   color: #4d5763;
   font-weight: 100;
   font-family: $font_family;
   font-size: 18px;
   @media all and (max-width:770px){
-    width: 50%;
+    width: 100%;
   
 }
 }
