@@ -3,11 +3,16 @@
 .main{
   width: 100%;
 }
+.links-wrapper{
+  height: 100%;
+}
 .linksInfo{
   width: 100%;
+  height: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  padding-bottom: 15px;
+  padding: 0 15px 15px 15px;
+  
 }
 
 .linksInfo_title{
