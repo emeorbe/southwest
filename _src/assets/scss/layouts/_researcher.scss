@@ -51,8 +51,8 @@
   color:$color-text;
   margin-top: 0;
   line-height: 1.9;
-  letter-spacing: 0.5px;
-  text-align: justify;
+  // letter-spacing: 0.5px;
+  text-align: left;
   
   @media all and (max-width:750px){
     font-size: 17px;
